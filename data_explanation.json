@@ -1,0 +1,18 @@
+{
+    "Guild": {
+        "setup": true,
+        "category_request": "ID of the ModMail Category on your Server, this happens automatically => int",
+        "archive": "A bool indicating if the Message logs are saved, this is defined with an interaction menu in discord => bool",
+        "archive_channel": "ID of the Channel the logs are sent to on your Server, this happens automatically => int",
+        "introduction_channel": "ID of the Setup Channel on your Server, this happens automatically => int",
+        "ticket_number": "Total amount of opened tickets => int ",
+        "mods": "List of IDs for allowed Mods, defined over discord commands => list",
+        "open_tickets": [
+            {
+                "channel": "here must be the string of the int channel id",
+                "id": "here must be the int of the user",
+                "embed": "must contain link to message with editable embed send to user,"
+            }
+        ]
+    }
+}
